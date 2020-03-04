@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+}
+.icon-colors{
+	size: 20px;
+	color: white;
+	background-color: #787878;
+	padding: 8px;
+	border-radius: 2px;
+	border-radius: 19px;
+}
+.icon-colors:hover{
+	background-color: red;
+	cursor: pointer;
+}
+.icon-links{
+	float: right;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-right: 15px;
+}
+
+/* main div for linkks */
+ .external-links {
+ 	overflow-y: auto;
+ 	background-color: black;
+}
+
+.links-in-li{
+	text-decoration: none;
+	color: white;
+	font-size: 12;
+}
+
+.text-items{
+	display: inline;
+}
+.text-list{
+	list-style-type: none;
+	float: left;
+	padding: 0px 0px 0px 20px;
+}
+/* above are icons div css properties */
+
+.second-menu-links{
+	/*overflow-y: auto;*/
+	background-color: white;
+}
+.text-link-second{
+	display: inline;
+	list-style-type: none;
+	margin-top: 0px;
+	padding: 0px 0px 0px 20px;
+}
+.second-text-items{
+	display: inline-block;
+	padding: 5px;
+}
+.second-links-in-li{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	/*border-bottom: 2px solid blue;*/
+}
+.second-links-in-li:hover { 
+	color: #9f9f9f;
+}
+.second-links-in-li:hover{
+
+	border-bottom: 8px solid blue;
+}
+.horizontal-break{
+	height: 4px;
+	background-color: #f1f1f1;
+	margin-left: 20px;
+	margin-right: 20px;
+}
