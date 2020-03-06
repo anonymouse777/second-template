@@ -130,15 +130,7 @@ body {
 	height: 450px;
 	display: block;
 }
-.image-div{
-	margin-top: 10px;
-	width: 550px;
-	height: 440px;
-	text-align: center;
-	background-color: #333333;
-	color: white;
-	float: right;
-}
+
 .heading-float-left-div{
 	height: 450px;
 	width: 400px;
@@ -202,15 +194,17 @@ body {
 	display: block;
 }
 .row{
-	display: inline;
+	display: block;
 	width: 100%;
 }
 .col-1{
-	width: 22%;
-	/*width: 250px;*/
+	/*width: 22%;*/
+	width: 260px;
+
 	float: left;
 	padding: 0px 5px 0px 5px;
 	overflow-y: auto;
+	margin-bottom: 10px;
 }
 /*.quick-links{
 	color: white;
@@ -224,6 +218,7 @@ body {
 .contact-list{
 	list-style-type: none;
 	padding: 0px 0px 0px 5px;
+	margin: 15px 0px 0px 0px;
 }
 .contact-links{
 	text-decoration: none;
@@ -362,7 +357,8 @@ body {
 	width: 85px;
 	background-color: #333333;
 	display: inline-block;
-	margin: 20px 40px 20px 60px;
+	margin-left: 70px;
+	margin-top: 40px;
 	color: #f6f6f6;
 }
 .heading-four-insides-div{
@@ -380,4 +376,65 @@ body {
 	width: 30;
 	border-radius: 3px;
 	background-color: blue;
+}
+
+/*  image slideshow css   */
+
+.slide-container{
+	width: 550px;
+	height: 440px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	text-align: left;
+}
+.whole-content-div{
+	margin-left: auto;
+	margin-right: auto;
+}
+.image-container{
+	width: 1650px;
+	height: 440px;
+	position: relative;
+	transition: left 2s; 
+	-webkit-transition: left 2s;
+}
+.slider-image{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.button-container{
+	top: -20px;
+	position: relative;
+}
+.slider-button{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	border-color: yellow;
+	background-color: black;
+	margin-left: 5px;
+}
+#slider-image-1:target ~ .image-container{
+	left: 0px;
+}
+#slider-image-2:target ~ .image-container{
+	left: -550px;
+}
+#slider-image-3:target ~ .image-container{
+	left: -1100px;
+}
+a:active{
+	background-color: red;
+}
+.image-div{
+	margin-top: 10px;
+	width: 550px;
+	height: 440px;
+	text-align: center;
+	background-color: #333333;
+	color: white;
+	float: right;
 }
