@@ -63,10 +63,7 @@ body {
 	padding: 5px 5px 6px 0px;
 	/*border-bottom: 2px solid blue;*/
 }
-/*.second-links-in-li:hover { 
-	color: #9f9f9f;
-}*/
-.second-links-in-li:hover{
+.second-links-in-li:active {
 
 	border-bottom: 2px solid blue;
 }
@@ -131,6 +128,7 @@ body {
 	padding: 0px 20px 0px 20px;
 	background-color: #f1f1f1;
 	height: 450px;
+	display: block;
 }
 .image-div{
 	margin-top: 10px;
@@ -144,6 +142,7 @@ body {
 .heading-float-left-div{
 	height: 450px;
 	width: 400px;
+	float: left;
 }
 .heading-besides-image-div{
 	margin: 0px;
@@ -160,7 +159,7 @@ body {
 }
 /* contact us button and heading, text div */
 .picture-bottom-div{
-	margin: 20px 20px 20px 20px;
+	margin: 0px 20px 0px 20px;
 	background-color: #e0e0e0;
 	border-left: 5px solid #0099ff;
 	padding: 20px;
@@ -199,7 +198,8 @@ body {
 	overflow-y: auto;
 	border-top: 5px solid black;
 	background-color: #1a1a1a;
-	padding: 0px 20px 0px 20px;
+	padding: 40px 20px 40px 20px;
+	display: block;
 }
 .row{
 	display: inline;
@@ -207,6 +207,7 @@ body {
 }
 .col-1{
 	width: 22%;
+	/*width: 250px;*/
 	float: left;
 	padding: 0px 5px 0px 5px;
 	overflow-y: auto;
@@ -232,6 +233,7 @@ body {
 .contact-list-items{
 	color: #818181;
 	border-bottom: 1px solid #212121;
+	margin: 5px 0px 0px 0px;
 }
 .about-us-image-div{
 
@@ -253,21 +255,129 @@ body {
 }
 .post-title{
 	color: #4f4f4f;
-	margin: 10px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 .address-text{
 	color: #4f4f4f;
-	font-size: 14px;
-	margin: 10px 0px 0px 0px;
+	font-size: 12px;
+	margin: 5px 0px 0px 0px;
 }
 .contact-us{
 	background-color: #232323;
 	margin: 5px 0px;
-	font-size: 16px;
+	font-size: 14px;
+	color: #939393;
+	border-color: #232323;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	width: 200px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.text-message{
+	background-color: #232323;
+	margin: 5px 0px;
+	font-size: 14px;
 	color: #939393;
 	border-color: #232323;
 	border-radius: 10px;
 	padding: 10px;
 	border-style: solid;
+	width: 200px;
+	height: 70px;
+	resize: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+.contact-us-form-submit-button{
+	color: #fff;
+	background-color: #0099ff;
+	font-size: 14px;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #0099ff;
+	cursor: pointer;
+	width: 80px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.footer-class{
+	overflow-y: auto;
+	background-color: #222222;
+	border-top: 5px solid #2d2d2d;
+	border-bottom: 5px solid #2d2d2d;
+	border-color: #2d2d2d;
+	padding: 15px 0px 15px 0px;
+}
+.copy-right{
+	float: left;
+	margin-left: 20px;
+	color: #666;
+	font-size: 14px;
+}
+.template-by{
+	float: right;
+	margin-right: 20px;
+	color: #666;
+	font-size: 14px;
+}
+
+
+/* main images tags */
+.main-picture-div{
+	background-color: #fff;
+	overflow-y: auto;
+	display: block;
+}
+.pc-tab-mobie-picture-div{
+	/*width: 50%;
+	height: 475px;*/
+	width: 500px;
+	height: 500px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+.container-for-four-divs{
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+	float: left;
+}
+
+/* basically below class contains four div but they fall under above class "container-for-four-divs "*/
+.container-for-two-div{ 
+	display: block;
+}
+.four-inner-div{
+	height: 250px;
 	width: 250px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	background-color: #fff;
+}
+
+.four-pic-div{
+	height: 80px;
+	width: 85px;
+	background-color: #333333;
+	display: inline-block;
+	margin: 20px 40px 20px 60px;
+	color: #f6f6f6;
+}
+.heading-four-insides-div{
+	text-align: center;
+	color: #0099ff;
+}
+
+.text-four-insides-div{
+	text-align: center;
+	color: #666666
+}
+
+.radio-button-class{
+	height: 30;
+	width: 30;
+	border-radius: 3px;
+	background-color: blue;
 }
