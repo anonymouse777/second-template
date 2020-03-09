@@ -426,9 +426,7 @@ body {
 #slider-image-3:target ~ .image-container{
 	left: -1100px;
 }
-a:active{
-	background-color: red;
-}
+
 .image-div{
 	margin-top: 10px;
 	width: 550px;
